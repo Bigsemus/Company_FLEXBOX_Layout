@@ -1,0 +1,354 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Section 1 Start */
+button, a {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(118, 205, 216);
+}
+
+button {
+  color: white;
+  background-color: rgb(83, 184, 159);
+  padding: 15px 45px;
+  font-size: 20px;
+  border: none;
+}
+
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-1 div {
+  flex-basis: 50%;
+  height: auto;
+}
+
+.section-1 h3 {
+  color: rgb(118, 205, 216);
+}
+
+.one-s1,
+.four-s1 {
+  background-color: rgb(118, 205, 216);
+  text-align: center;
+  color: white;
+}
+
+.s1_wrap-text {
+  margin: 130px;
+}
+
+.s1_wrap-text>p:hover {
+  color: #76cdd8;
+}
+
+.two-s1:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  border: 130px solid transparent;
+  border-top: 0 solid;
+  border-right: 140px solid rgb(118, 205, 216);
+}
+
+.six-s1:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  border: 130px solid transparent;
+  border-top: 0 solid;
+  border-right: 140px solid rgb(118, 205, 216);
+}
+
+.three-s1:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  border: 130px solid transparent;
+  border-top: 0 solid;
+  border-left: 140px solid rgb(118, 205, 216);
+}
+
+.section-1 p {
+  line-height: 1.9em;
+  word-spacing: 0.04em;
+}
+
+.three-s1_button {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.six-s1_button {
+  display: block;
+  margin: 0 auto;
+}
+
+.one-s1>h1 {
+  padding-top: 15%;
+  font-size: 60px;
+}
+
+.paypass {
+  max-width: 100%;
+  height: 100%;
+}
+
+.paypass:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.imgGame {
+  width: 50%;
+  height: 70%;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.six-s1 span {
+  color: blue;
+}
+
+/* Section 1 Finish */
+
+/* Section 2 Start */
+
+.section-2 {
+  display: flex;
+  line-height: 1.9em;
+  word-spacing: 0.04em;
+  padding-top: 100px;
+}
+
+.one-s2 {
+  padding: 100px 20px 0px 100px;
+}
+
+.one-s2>h3 {
+  color: rgb(118, 205, 216);
+}
+
+.section-2_button {
+  display: block;
+  margin-right: 40px;
+  margin-left: auto;
+}
+
+.imgStadium {
+  display: block;
+  height: 100%;
+  width: 600px;
+
+  margin-left: auto;
+}
+
+.two-s2 {
+  height: 770px;
+}
+
+.imgStadium:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+/* Section 2 Finish */
+
+/* Section 3 Start */
+.section-3 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.section-3 button {
+  display: block;
+  margin: 55px auto 0;
+}
+
+.inside1_two-s3,
+.inside1_three-s3 {
+  padding: 15px 0;
+  text-align: center;
+  background-color: rgb(83, 184, 159);
+  color: white;
+}
+
+.inside2_two-s3,
+.inside2_three-s3 {
+  padding: 60px;
+}
+
+.inside2_three-s3 button:hover,
+.inside2_two-s3 button:hover {
+  background-color: #24d4d4;
+}
+
+.two-s3 {
+  border: 2px solid rgb(83, 184, 159);
+  margin: 30px;
+  width: 28%;
+}
+
+.two-s3:hover {
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.three-s3 {
+  border: 2px solid rgb(83, 184, 159);
+  width: 28%;
+  margin: 30px 30px 30px 0;
+}
+
+.three-s3:hover {
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.three-s3:hover::after {
+  content: "Special discount";
+  position: relative;
+  bottom: 40px;
+  left: 150px;
+}
+
+.three-s3:hover::before {
+  content: "*";
+  color: red;
+  position: absolute;
+  top: 580px;
+  left: 140px;
+}
+
+.imgBallpark {
+  height: 700px;
+  width: 100%;
+}
+
+.imgBallpark:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+/* Section 3 Finish */
+
+/* Section 4 Start */
+.section-4 {
+  padding-top: 100px;
+}
+
+.one-s4 {
+  background-color: #24d4d4;
+  height: 150px;
+  color: white;
+}
+
+.one-s4>h3 {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+/* FORM block start */
+.two-s4 {
+  width: 80%;
+  margin: -60px auto -50px;
+  background-color: #fff;
+}
+
+.s4_form {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.s4_input {
+  width: 50%;
+  padding-right: 20px;
+  height: 300px;
+  background-color: #fff;
+}
+
+.s4_texarea {
+  width: 50%;
+  padding-left: 20px;
+  height: 300px;
+  background-color: #fff;
+}
+
+.form-button {
+  display: block;
+  margin: 20px auto 0;
+}
+
+.s4_button {
+  position: relative;
+  background-color: white;
+  height: 100px;
+}
+
+.form>input,
+.form>select {
+  height: 40px;
+  margin: 20px 0 0 60px;
+}
+
+.form>input:hover {
+  border-color: #24d4d4;
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.form>select:hover {
+  border-color: #24d4d4;
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.s4_texarea>textarea {
+  margin-top: 60px;
+}
+
+.s4_texarea>textarea:hover {
+  border-color: #24d4d4;
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.form:first-child {
+  margin-top: 40px;
+}
+
+/* FORM block Finish */
+
+.three-s4 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  background-color: rgb(83, 184, 159);
+  color: white;
+}
+
+.inside1_three-s4 {
+  width: 18%;
+  padding-top: 100px;
+}
+
+.inside2_three-s4 {
+  width: 18%;
+  padding-top: 100px;
+}
+
+/* Section 4 Finish */
+
+footer>p {
+  text-align: center;
+}
